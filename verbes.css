@@ -1,0 +1,65 @@
+s*{
+    border: 0px;
+    padding:0px;
+    margin:0px;
+}
+.h1{
+    border:2px;
+    border-style: double;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parraf1{
+    font-size: 30cm;
+}
+#tableau{
+    border: 4px;
+    width: 100%;
+    border-style: double;
+    background-color: rgba(8, 145, 61, 0.459);
+}
+td, .tete{
+    text-align: center;
+}
+td b{
+    color: rgb(38, 4, 83);
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(54, 31, 5);
+    padding: 10px;
+    -webkit-animation-direction: alternate;
+}
+a:visited{
+    color: green;
+}
+.un:hover{
+    background-color: rgb(245, 62, 62);
+    
+}
+.deux:hover{
+    background-color: beige;
+}
+.trois:hover{
+    background-color: silver;
+}
+.quatre:hover{
+    background-color: maroon;
+}
+.cinq:hover{
+    background-color: green;
+}
+a:active{
+    border:2px solid rgb(181, 230, 197);
+    padding:2px;
+}
+img.photo{
+    text-align: center;
+    width: 50%;
+}
+img.etre{
+    text-align: center;
+    width: 20%;
+}
