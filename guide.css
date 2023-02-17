@@ -1,0 +1,38 @@
+body{
+    background-color: black
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+div.demonstratifs{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(230, 221, 174);
+}
+table{
+    border: 10px;
+    border-color: black;
+    border-radius: 20px;
+}
+th{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+.cinquieme{
+    width: 25px;
+}
+div.sixieme{
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(174, 230, 174);
+}
+input.sixieme{
+    height: 20px;
+    background-color: white;
+}
