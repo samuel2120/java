@@ -36,3 +36,22 @@ input.sixieme{
     height: 20px;
     background-color: white;
 }
+h2{
+    text-align: center;
+    color: white;
+}
+div.neuvieme{
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(174, 226, 230);
+}
+div.vingtieme{
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(230, 174, 230);
+}
+div.trentieme{
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(230, 174, 174);
+}
