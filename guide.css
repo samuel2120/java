@@ -40,6 +40,17 @@ h2{
     text-align: center;
     color: white;
 }
+div.dixieme{
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(218, 230, 174);
+}
+.COD{
+    color: brown;
+}
+.COI{
+    color: chocolate;
+}
 div.neuvieme{
     width: 50%;
     height: 1000px;
