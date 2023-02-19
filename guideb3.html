@@ -105,6 +105,29 @@
                     </ol>
                 <input type="button" onclick="reponse()" value="réponses">
             </div><br/><br/>
+            <script>
+                function reponse(){
+                    if (document.getElementById("premiere").value== "ces",
+                        document.getElementById("deuxieme").value== "cet",
+                        document.getElementById("troisieme").value=="ce",
+                        document.getElementById("quatrieme").value== "cet",
+                        document.getElementById("cinquieme").value=="cette"
+                        ){
+                        document.getElementById("premiere").value="ces";
+                        document.getElementById("deuxieme").value="cet";
+                        document.getElementById("troisieme").value="ce";
+                        document.getElementById("quatrieme").value="cet";
+                        document.getElementById("cinquieme").value="cette";
+                    }
+                    else{
+                        document.getElementById("premiere").value="ces";
+                        document.getElementById("deuxieme").value="cet";
+                        document.getElementById("troisieme").value="ce";
+                        document.getElementById("quatrieme").value="cet";
+                        document.getElementById("cinquieme").value="cette";
+                    }
+                }
+            </script>
         </center>
             <h1>
                 Les pronoms compléments d'objet directs<br/>
@@ -401,7 +424,7 @@
                 </div>
             </center>
             <h2>
-                La forme impersonnelle il faut
+                Le passé composé
             </h2>
             <center>
                 <div class="trentieme">
@@ -507,7 +530,176 @@
                             </td>
                         </tr>
                     </table>
-                    <img src="https://i0.wp.com/expressfrancais.com/files/wp-content/uploads/2014/05/expressfrancais_etre-montagne-passe-compose.jpg?resize=589%2C371">
+                    <img src="https://i0.wp.com/expressfrancais.com/files/wp-content/uploads/2014/05/expressfrancais_etre-montagne-passe-compose.jpg?resize=589%2C371"><br/>
+                    <ul class="blanc">
+                        <li>
+                            Je suis........................né <b class="rouge">(e)</b>
+                        </li><br/>
+                        <li>
+                            Tu es..........................né <b class="rouge">(e)</b>
+                        </li><br/>
+                        <li>
+                            Il est.........................né
+                        </li><br/>
+                        <li>
+                            Elle est........................né <b class="rouge">e</b>
+                        </li><br/>
+                        <li>
+                            On est.........................né 
+                        </li><br/>
+                        <li>
+                            Nous sommes....................né <b class="rouge">(e)</b><b class="vert">s</b>
+                        </li><br/>
+                        <li>
+                            Vous êtes......................né <b class="rouge">(e)</b><b class="vert">(s)</b>
+                        </li><br/>
+                        <li>
+                            Ils sont.......................né<b class="vert">s</b>
+                        </li><br/>
+                        <li>
+                            Elles sont.....................né<b class="rouge">e</b><b class="vert">s</b>
+                        </li>
+                    </ul><br/>
+                    <h2>
+                        GRAMMAIRE
+                    </h2>
+                    <p>
+                        I. Mettez les phrases suivantes au passé composé affirmativement et négativement. N'oubliez pas les accords.
+                    </p>
+                    <ol>
+                        <li>
+                            Camille prépare la pizza avec ses amies.<br/>
+                            (+)
+                            <input type="text" id="plus1" class="plus"><br/>
+                            (-)
+                            <input type="text" id="moins1" class="moins"><br/>
+                        </li>
+                        <li>
+                            Les enfants sortent de la maison à 7h.<br/>
+                            (+)
+                            <input type="text" id="plus2" class="plus"><br/>
+                            (-)
+                            <input type="text" id="moins2" class="moins"><br/>
+                        </li>
+                        <li>
+                            Chaque élève fait l´exercice individuellement.<br/>
+                            (+)
+                            <input type="text" id="plus3" class="plus"><br/>
+                            (-)
+                            <input type="text" id="moins3" class="moins"><br/>
+                        </li>
+                        <li>
+                            Je monte les valises au 5e étage.<br/>
+                            (+)
+                            <input type="text" id="plus4" class="plus"><br/>
+                            (-)
+                            <input type="text" id="moins4" class="moins"><br/>
+                        </li>
+                        <li>
+                            M. Legrand part au travail avec sa femme.<br/>
+                            (+)
+                            <input type="text" id="plus5" class="plus"><br/>
+                            (-)
+                            <input type="text" id="moins5" class="moins"><br/>
+                        </li>
+                    </ol>
+                    <input type="button" onclick="passe()" value="réponses">
+                </div>
+            </center>
+            <script>
+                function passe(){
+                    if (document.getElementById("plus1").value=="Camille a préparé la pizza avec ses amies.", 
+                        document.getElementById("moins1").value=="Camille n'a pas préparé la pizza avec ses amies.", 
+                        document.getElementById("plus2").value=="Les enfants sont sortis de la maison à 7h.", 
+                        document.getElementById("moins2").value=="Les enfants ne sont pas sortis de la maison à 7h.",
+                        document.getElementById("plus3").value=="Chaque élève a fait l´exercice individuellement.",
+                        document.getElementById("moins3").value=="Chaque élève n'a pas fait l´exercice individuellement.", 
+			            document.getElementById("plus4").value=="J’ai monté les valises au 5e étage.",
+                        document.getElementById("moins4").value=="Je n’ai pas monté les valises au 5e étage.",
+                        document.getElementById("plus5").value=="M. Legrand est parti au travail avec sa femme.",
+                        document.getElementById("moins5").value=="M. Legrand n'est pas parti au travail avec sa femme"
+                        ){
+                        document.getElementById("plus1").value= "Camille a préparé la pizza avec ses amies.";
+                        document.getElementById("moins1").value= "Camille n'a pas préparé la pizza avec ses amies..";
+                        document.getElementById("plus2").value="Les enfants sont sortis de la maison à 7h.";
+                        document.getElementById("moins2").value="Les enfants ne sont pas sortis de la maison à 7h.";
+                        document.getElementById("plus3").value="Chaque élève a fait l´exercice individuellement.";
+                        document.getElementById("moins3").value="Chaque élève n'a pas fait l´exercice individuellement.";
+			            document.getElementById("plus4").value="J’ai monté les valises au 5e étage."; 
+                        document.getElementById("moins4").value="Je n’ai pas monté les valises au 5e étage.";
+                        document.getElementById("plus5").value="M. Legrand est parti au travail avec sa femme."; 
+                        document.getElementById("moins5").value="M. Legrand n'est pas parti au travail avec sa femme";
+                    }
+                    else{
+                        document.getElementById("plus1").value= "Camille a préparé la pizza avec ses amies.";
+                        document.getElementById("moins1").value= "Camille n'a pas préparé la pizza avec ses amies.";
+                        document.getElementById("plus2").value="Les enfants sont sortis de la maison à 7h.";
+                        document.getElementById("moins2").value="Les enfants ne sont pas sortis de la maison à 7h.";
+                        document.getElementById("plus3").value="Chaque élève a fait l´exercice individuellement.";
+                        document.getElementById("moins3").value="Chaque élève n'a pas fait l´exercice individuellement.";
+                        document.getElementById("plus4").value="J’ai monté les valises au 5e étage."; 
+                        document.getElementById("moins4").value="Je n’ai pas monté les valises au 5e étage.";
+                        document.getElementById("plus5").value="M. Legrand est parti au travail avec sa femme."; 
+                        document.getElementById("moins5").value="M. Legrand n'est pas parti au travail avec sa femme";
+                    };
+                }
+            </script>
+            <center>
+            <h2>
+                La négation.
+            </h2>
+            <center>
+                <div class="centieme">
+                    <table>
+                        <tr>
+                            <th>
+                                Observez ces phrasese:
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        je <b class="quatre">ne</b> vais <b class="quatre">pas</b> reseter longtemps.
+                                    </li>
+                                    <li>
+                                        je <b class="quatre">n'</b> ai <b class="quatre">personne</b> dnas ma vie.
+                                    </li>
+                                    <li>
+                                        je <b class="quatre">ne</b> veux <b class="quatre">rien</b> ignorer de ma fille.
+                                    </li>
+                                    <li>
+                                        je <b class="quatre">ne</b> fais <b class="quatre">plus</b> beaucoup de sport.
+                                    </li>
+                                    <li>
+                                        on <b class="quatre">ne</b> sait <b class="quatre">jamais !</b> 
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                Le premier éleément es <b class="quatre">ne.</b> Le duxième varie en fonction<br/>
+                                de l'élément sur lequel porte le négation.<br/>
+                                <ul>
+                                    <li>
+                                        <b class="quatre">personne</b> (quelqu'un / une personne.): <br/>
+                                        j'ai vu mes amis. &#8594 je <b class="quatre">n'</b>ai vu <b class="quatre">personne.</b>
+                                    </li>
+                                    <li>
+                                        <b class="quatre">rien</b> (une chose): <br/>
+                                        Il m'a offert un collier. &#8594 il <b class="quatre">ne</b> m'a<b class="quatre"> rien</b> offert.
+                                    </li>
+                                    <li>
+                                        <b class="quatre">plus, jamais....</b> (une référence temporrelle): <br/>
+                                        Il vient nous voir régulièrement. &#8594 il <b class="quatre">ne</b> vient<b class="quatre"> plus</b> nous voir.<br/>
+                                        Elle change d'avis tout le temps. &#8594 Elle <b class="quatre">ne</b> change<b class="quatre"> jamais.</b> d'avis.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </center>
     </body>
