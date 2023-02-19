@@ -25,7 +25,7 @@ td{
     text-align: center;
 }
 .cinquieme{
-    width: 25px;
+    width: 30px;
 }
 div.sixieme{
     width: 50%;
@@ -63,6 +63,36 @@ div.vingtieme{
 }
 div.trentieme{
     width: 50%;
-    height: 1000px;
+    height: 2000px;
     background-color: rgb(230, 174, 174);
+}
+div.centieme{
+    width: 50%;
+    height: 1000px;
+    background-color: rgb(231, 120, 120);
+}
+b.quatre{
+    color: red;
+    text-decoration-line: underline;
+    background-color: rgb(234, 215, 250);
+}
+ul.blanc, h2{
+    text-align: center;
+}
+li{
+    font-size: 14pt;
+}
+b.rouge{
+    color: red;
+}
+b.vert{
+    color: green;
+}
+input.plus{
+    width: 70%;
+    background-color: rgb(145, 218, 145);
+}
+input.moins{
+    width: 70%;
+    background-color: rgb(218, 178, 145);
 }
