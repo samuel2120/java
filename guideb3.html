@@ -408,6 +408,194 @@
                 </div>
             </center>
             <h2>
+                exercise de COI et COD
+            </h2>
+            <center>
+                <div class="second">
+                    <h3>
+                        II. Mettez les pronoms compléments de « COD » et « COI » qui manquent dans le texte.
+                    </h3>
+                    <p>
+                        Sami: Salut Brad. Je 
+                        <input type="text" id="un" class="un">
+                        écris en écoutant MC Solaar. Tu 
+                        <input type="text" id="deux" class="un">
+                        connais?
+                    </p>
+                    <p>
+                        Brad: Non, je ne 
+                        <input type="text" id="trois" class="un">
+                        connais pas. Moi, j'écoute le dernier «Offspring».
+                    </p>
+                    <p>
+                        Samy: C'est super!, Justine, une amie,
+                        <input type="text" id="quatre" class="un"> 
+                        adore. Je 
+                        <input type="text" id="cinq" class="un">
+                        ai offert leur dernier CD pour son anniversaire.<br/> 
+                        Est‐ce que Céline
+                        Dion est toujours à la mode au Canada?
+                    </p>
+                    <p>
+                        Brad: On ne 
+                        <input type="text" id="six" class="un">
+                        entend plus beaucoup. Maintenant la star du Québec c'est Lynda Lemay.<br/> 
+                        Elle 
+                        <input type="text" id="sept" class="un">
+                        plaît beaucoup.
+                    </p>
+                    <p>
+                        Samy: Bon, ben tu 
+                        <input type="text" id="huit" class="un">
+                        feras entendre ta québécoise et je 
+                        <input type="text" id="neuf" class="un">
+                        initierai au rap français.
+                    </p>
+                    <p>
+                        Brad: Oops! Le téléphone sonne, je 
+                        <input type="text" id="dix" class="un"> 
+                        quitte. Bonjour à tes parents.
+                    </p>
+                    <p>
+                        Samy: Je 
+                        <input type="text" id="onze" class="un">
+                        dirai bonsoir plutôt. Il est 23h 00 ici.
+                    </p>
+                    <input type="button" onclick="cc()" value="COD ou COI">
+                    <h3>
+                        V. Remplacez le C.O.D. et le C.O.I et mettez les phrases suivantes au passé composé. N’oubliez pas les accords.
+                    </h3>
+                    <h6>
+                        Ex. Je fais l’examen &#8594 Je l’ai fait.
+                    </h6>
+                    <ol>
+                        <li class="duex">
+                            Je mange les bonbons de ma grand‐mère.<br>
+                            <input type="text" id="douze" class="deux">
+                        </li>
+                        <li class="duex">
+                            Il met les clés dans sa poche.<br>
+                            <input type="text" id="treize" class="deux">
+                        </li>
+                        <li class="duex">
+                            On téléphone à Sophie ce soir ?<br>
+                            <input type="text" id="quarante" class="deux">
+                        </li>
+                        <li class="duex">
+                            Tu prends le train ?<br>
+                            <input type="text" id="cinquante" class="deux">
+                        </li>
+                        <li class="duex">
+                            J’écris cette carte postale à mes parents.<br>
+                            <input type="text" id="dixsept" class="deux">
+                        </li>
+                        <li class="duex">
+                            Nous faisons les devoirs chez Paul.<br>
+                            <input type="text" id="dixhuit" class="deux">
+                        </li>
+                        <li class="duex">
+                            Vous achetez ces pantalons.<br>
+                            <input type="text" id="dixneuf" class="deux">
+                        </li>
+                        <li class="duex">
+                            Ils écoutent le nouvel album de Zaz.<br>
+                            <input type="text" id="vingt" class="deux">
+                        </li>
+                        <li class="duex">
+                            Elle porte ces chaussures mardi.<br>
+                            <input type="text" id="vingtun" class="deux">
+                        </li>
+                        <li class="duex">
+                            Elles prêtent la robe à leur amie..<br>
+                            <input type="text" id="vingtdeux" class="deux">
+                        </li>
+                    </ol>
+                    <input type="button" onclick="dd()" value="Mettre">
+                </div>
+                <script>
+                    function cc(){
+                        if(
+                            document.getElementById("un").value=="T'",
+                            document.getElementById("deux").value=="le",
+                            document.getElementById("trois").value=="le'",
+                            document.getElementById("quatre").value=="l'",
+                            document.getElementById("cinq").value=="lui",
+                            document.getElementById("six").value=="l'",
+                            document.getElementById("sept").value=="me",
+                            document.getElementById("huit").value=="me",
+                            document.getElementById("neuf").value=="t'",
+                            document.getElementById("dix").value=="te",
+                            document.getElementById("onze").value=="te"
+                        )
+                        {
+                            document.getElementById("un").value="T'";
+                            document.getElementById("deux").value="le";
+                            document.getElementById("trois").value="le";
+                            document.getElementById("quatre").value="l'";
+                            document.getElementById("cinq").value="lui";
+                            document.getElementById("six").value="l'";
+                            document.getElementById("sept").value="me";
+                            document.getElementById("huit").value="me";
+                            document.getElementById("neuf").value="t'";
+                            document.getElementById("dix").value="te";
+                            document.getElementById("onze").value="te";
+                            
+
+                        }
+                        else{
+                            document.getElementById("un").value="T'";
+                            document.getElementById("deux").value="le";
+                            document.getElementById("trois").value="le";
+                            document.getElementById("quatre").value="l'";
+                            document.getElementById("cinq").value="me";
+                            document.getElementById("six").value="l'";
+                            document.getElementById("sept").value="me";
+                            document.getElementById("huit").value="me";
+                            document.getElementById("neuf").value="t'";
+                            document.getElementById("dix").value="te";
+                            document.getElementById("onze").value="te";
+                        }
+                    }
+                    function dd(){
+                        if(
+                            document.getElementById("douze").value=="Je les ai mangés",
+                            document.getElementById("quarante").value=="On lui a téléphoné ce soir ?",
+                            document.getElementById("cinquante").value=="Tu l’as pris",
+                            document.getElementById("dixsept").value=="Je leur ai écrit cette carte postale. // Je l´ai écrite à mes parents",
+                            document.getElementById("dixhuit").value=="Nous les avons faits chez Paul.",
+                            document.getElementById("dixneuf").value=="Vous les avez achetés.",
+                            document.getElementById("vingt").value=="Ils l’ont écouté.",
+                            document.getElementById("vingtun").value=="Elle les a portées mardi dernier !",
+                            document.getElementById("vingtdeux").value=="Elles lui ont prêté la robe. / Elles l’ont prêtée à leur amie."
+                        )
+                        {
+                            document.getElementById("douze").value="Je les ai mangés";
+                            document.getElementById("treize").value="Il les a mises dans sa poche.";
+                            document.getElementById("quarante").value="On lui a téléphoné ce soir ?";
+                            document.getElementById("cinquante").value="Tu l’as pris";
+                            document.getElementById("dixsept").value="Je leur ai écrit cette carte postale. // Je l´ai écrite à mes parents";
+                            document.getElementById("dixhuit").value="Nous les avons faits chez Paul.";
+                            document.getElementById("dixneuf").value="Vous les avez achetés.";
+                            document.getElementById("vingt").value="Ils l’ont écouté.";
+                            document.getElementById("vingtun").value="Elle les a portées mardi dernier !";
+                            document.getElementById("vingtdeux").value="Elles lui ont prêté la robe. / Elles l’ont prêtée à leur amie.";
+                        }
+                        else{
+                            document.getElementById("douze").value="Je les ai mangés";
+                            document.getElementById("treize").value="Il les a mises dans sa poche.";
+                            document.getElementById("quarante").value="On lui a téléphoné ce soir ?";
+                            document.getElementById("cinquante").value="Tu l’as pris";
+                            document.getElementById("dixsept").value="Je leur ai écrit cette carte postale. // Je l´ai écrite à mes parents";
+                            document.getElementById("dixhuit").value="Nous les avons faits chez Paul.";
+                            document.getElementById("dixneuf").value="Vous les avez achetés.";
+                            document.getElementById("vingt").value="Ils l’ont écouté.";
+                            document.getElementById("vingtun").value="Elle les a portées mardi dernier !";
+                            document.getElementById("vingtdeux").value="Elles lui ont prêté la robe. / Elles l’ont prêtée à leur amie.";
+                        }
+                    }
+                </script>
+            </center>
+            <h2>
                 Prépositions + noms de pays, de villes et de régions
             </h2>
             <center>
@@ -700,7 +888,166 @@
                             </td>
                         </tr>
                     </table>
+                    <h3>
+                        VI. Répondez négativement. Utilisez « ne… jamais », « ne… personne », « ne… rien », « ne… plus » et « ne… pas ».
+                    </h3>
+                    <ol>
+                        <li class="ne">
+                            Tu as connu quelqu’un ? <br/>Non,
+                            <input type="text" id="boire" class="trois">
+                        </li>
+                        <li class="ne">
+                            Est‐ce qu’il a dit quelque chose ? <br/>Non,
+                            <input type="text" id="entendre" class="trois">
+                        </li>
+                        <li class="ne">
+                            Avez‐vous préparé la pizza ? <br/>Non,
+                            <input type="text" id="attendre" class="trois">
+                        </li>
+                        <li class="ne">
+                            Elle a été toujours distraite ? <br/>Non,
+                            <input type="text" id="perdre" class="trois">
+                        </li>
+                        <li class="ne">
+                            Vous faites encore du sport ? <br/>Non,
+                            <input type="text" id="devoir" class="trois">
+                        </li>
+                    </ol>
+                    <input type="button" onclick="ne()" value="Négative">
                 </div>
+            </center>
+            <script>
+                function ne(){
+                    if(
+                        document.getElementById("boire").value== "je n’ai connu personne.",
+                        document.getElementById("entendre").value== "il n’a rien dit.",
+                        document.getElementById("attendre").value== "nous n’avons pas préparé la pizza.",
+                        document.getElementById("perdre").value== "elle n’a jamais été distraite.",
+                        document.getElementById("devoir").value== "nous ne faisons plus de sport."
+                    )
+                    {
+                        document.getElementById("boire").value= "je n’ai connu personne.";
+                        document.getElementById("entendre").value= "il n’a rien dit.";
+                        document.getElementById("attendre").value= "nous n’avons pas préparé la pizza.";
+                        document.getElementById("perdre").value= "elle n’a jamais été distraite.";
+                        document.getElementById("devoir").value= "nous ne faisons plus de sport.";
+                    }
+                    else{
+                        document.getElementById("boire").value= "je n’ai connu personne.";
+                        document.getElementById("entendre").value= "il n’a rien dit.";
+                        document.getElementById("attendre").value= "nous n’avons pas préparé la pizza.";
+                        document.getElementById("perdre").value= "elle n’a jamais été distraite.";
+                        document.getElementById("devoir").value= "nous ne faisons plus de sport.";
+                    }
+                }
+            </script>
+            <h2>
+                COMPRÉHENSION ÉCRITE
+            </h2>
+            <center>
+                <div class="pouvoir">
+                    <h3>
+                        Les accessoires de mode en 1900
+                    </h3>
+                    <p class="pouvoir">
+                        * Chapeaux : à l'époque, il était encore très mal vu de sortir tête nue ou en cheveux, chose que seules les femmes du
+peuple faisaient ; les femmes aisées et mêmes les plus simples bourgeoises ne se montraient jamais dans la rue sans porter
+de chapeau, accessoire essentiel. La Belle Époque a donné lieu aux constructions chapelières les plus extraordinaires,
+chargées de plumes, de faux fruits et de fleurs, rappelant dans un autre genre les extravagantes constructions capillaires
+des femmes de la cour au milieu du XVIIIe siècle. De façon intéressante, c'est vers 1910, lorsque la silhouette générale se
+simplifie et s'amincit, que les chapeaux deviennent les plus larges et imposants.
+                    </p>
+                    <p class="pouvoir">
+                        * La plupart des femmes portaient des gants de chevreau ou d'agneau, lavables ; il en existait aussi en daim, et pour le
+soir, en soie rebrodée. Tous étaient extrêmement étroits, moulant la main jusqu'au poignet, voire jusqu'à l'avant‐bras.
+                    </p>
+                    <p class="pouvoir">
+                        * Chaussures : la chaussure féminine la plus pratique est la bottine de cuir, fermées par de petits boutons.
+                    </p>
+                    <p class="pouvoir">
+                        * Ombrelles : en dehors des plus utilitaires parapluies, les ombrelles destinées à protéger le teint du soleil étaient portées
+tout au long de l'année. Ajourées, couvertes de dentelles, au manche de bois ou d'ivoire sculpté, elles ajoutaient beaucoup
+à l'élégance et la délicatesse de l'ensemble.
+                    </p>
+                    <p class="pouvoir">
+                        * bijoux : l'Art nouveau a produit des bijoux extraordinaires, superbes ; les artistes n'hésitaient pas à se faire designers à
+l'occasion, comme le célèbre Mucha, qui a créé de nombreux bijoux.
+                    </p>
+                    <h5>
+                        Questions
+                    </h5>
+                    <ol>
+                        <li class="voir">
+                            À cette époque‐là sortir sans chapeau était mal vu ?
+                            <input type="text" id="vu" class="lu">
+                        </li>
+                        <li class="voir">
+                            Qui se montraient sans chapeau ?<br/>
+                            a) Les femmes aisées. ____________ b) Les bourgeoises.____________ c) Les femmes du peuple.<br/>
+                            <input type="text" id="cru" class="lu">
+                        </li>
+                        <li class="voir">
+                            Comment était la construction des chapeaux à la Belle époque ?<br/>
+                            <input type="text" id="bu" class="vu">
+                        </li>
+                        <li class="voir">
+                            Qu’est‐ce qui se passe au XVIIIe siècle avec la silhouette ?<br/>
+                            <input type="text" id="entendu" class="lu">
+                        </li>
+                        <li class="voir">
+                            Dans quelle matière étaient faits les gants ?<br/>
+                            <input type="text" id="attendu" class="vu">
+                        </li>
+                        <li class="voir">
+                            Est‐ ce qu’il y avait des gants qui couvraient l’avant‐bras ?
+                            <input type="text" id="perdu" class="lu">
+                        </li>
+                        <li class="voir">
+                            Quoi aidait à protéger le teint du soleil ?<br/>
+                            a) Les chapeaux________ b) Les ombrelles______________ c) Les bottines.
+                            <input type="text" id="du" class="lu">
+                        </li>
+                        <li class="voir">
+                            Qui a créé de nombreux bijoux ?<br/>
+                            <input type="text" id="pu" class="lu">
+                        </li>
+                    </ol>
+                    <input type="button" onclick="dit()" value="mis">
+                </div>
+                <script>
+                    function dit(){
+                        if (
+                            document.getElementById("vu").value=="Vrai",
+                            document.getElementById("cru").value=="Les femmes du peuple.",
+                            document.getElementById("bu").value=="Chargées de plumes, de faux fruits et de fleurs",
+                            document.getElementById("entendu").value=="Se simplifie et s'amincit",
+                            document.getElementById("attendu").value=="De chevreau ou d'agneau. Il en existait aussi en daim, et en soie rebrodée.",
+                            document.getElementById("perdu").value=="Vrai",
+                            document.getElementById("du").value=="Les ombrelles",
+                            document.getElementById("pu").value=="Mucha"
+                        )
+                        {
+                            document.getElementById("vu").value="Vrai";
+                            document.getElementById("cru").value="Les femmes du peuple.";
+                            document.getElementById("bu").value="Chargées de plumes, de faux fruits et de fleurs";
+                            document.getElementById("entendu").value="Se simplifie et s'amincit";
+                            document.getElementById("attendu").value="De chevreau ou d'agneau. Il en existait aussi en daim, et en soie rebrodée.";
+                            document.getElementById("perdu").value="Vrai";
+                            document.getElementById("du").value="Les ombrelles";
+                            document.getElementById("pu").value="Mucha";
+                        }
+                        else{
+                            document.getElementById("vu").value="Vrai";
+                            document.getElementById("cru").value="Les femmes du peuple.";
+                            document.getElementById("bu").value="Chargées de plumes, de faux fruits et de fleurs";
+                            document.getElementById("entendu").value="Se simplifie et s'amincit";
+                            document.getElementById("attendu").value="De chevreau ou d'agneau. Il en existait aussi en daim, et en soie rebrodée.";
+                            document.getElementById("perdu").value="Vrai";
+                            document.getElementById("du").value="Les ombrelles";
+                            document.getElementById("pu").value="Mucha";
+                        }
+                    }
+                </script>
             </center>
     </body>
 </html>
