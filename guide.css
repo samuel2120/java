@@ -51,6 +51,19 @@ div.dixieme{
 .COI{
     color: chocolate;
 }
+div.second{
+    width: 50%;
+    height: 1300px;
+    background-color: rgb(174, 208, 230);
+}
+input.un{
+    width: 3%;
+    background-color: aquamarine;
+}
+input.deux{
+    width: 60%;
+    background-color: azure;
+}
 div.neuvieme{
     width: 50%;
     height: 1000px;
@@ -63,7 +76,7 @@ div.vingtieme{
 }
 div.trentieme{
     width: 50%;
-    height: 2000px;
+    height: 2100px;
     background-color: rgb(230, 174, 174);
 }
 div.centieme{
@@ -95,4 +108,25 @@ input.plus{
 input.moins{
     width: 70%;
     background-color: rgb(218, 178, 145);
+}
+input.trois{
+    width: 30%;
+    background-color: rgb(145, 218, 206);
+}
+div.pouvoir{
+    width: 50%;
+    height: 1100px;
+    background-color: rgb(120, 137, 231);
+}
+p.pouvoir{
+    text-align: justify;
+    font-size: 12pt;
+}
+input.lu{
+    width: 23%;
+    background-color: rgb(218, 145, 173);
+}
+input.vu{
+    width: 70%;
+    background-color: rgb(218, 145, 173);
 }
