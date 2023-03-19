@@ -7,6 +7,54 @@
         </title>
     </head>
     <body>
+                <style>
+            :root{
+    --font-style: 'Nunito Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    cursor: pointer; 
+}
+a:after{
+    display: inline-block;
+}
+a:hover::after{
+    transform: scaleY(1);
+}
+nav{
+    width: 100%;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0px;
+    border-radius: 25px;
+    border: 0.1 solid #099fff;
+    background-color: #18181b;
+    box-shadow: 0px 4px 8px 0px #00FFFF, 0px 6px 20px 0px rgb(0,0,0.19);
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+        </style>
+        <nav>
+            <a class="nav-enlace" href="vegetables.html">
+                Vegetables
+            </a>
+            <a class="nav-enlace" href="professions.html">
+                Professions
+            </a>
+            <a class="nav-enlace" href="verbs.html">
+                Le verbes
+            </a>
+            <a class="nav-enlace" href="#">
+                 Il faut
+           </a>
+           <a class="nav-enlace" href="#">
+            Passé Composé
+      </a>
+        </nav>
         <nav>
             <a class="nav-enlace" href="francais.html">
                 Francais
